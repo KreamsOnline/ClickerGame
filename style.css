@@ -13,7 +13,8 @@
 
 .active {
     cursor: crosshair;
-    background-color: red;
+    background-color: lightblue;
+    border: 3px solid yellow;
 }
 
 .btn {
@@ -26,12 +27,13 @@
 
 .gridContainer {
     display: grid;
+    border: 3px dotted black;
 }
 
 .grid-item {
     color: black;
     padding: 15px;
-    border: 1px solid #ddd;
+    border: 2px solid #ddd;
     text-align: center;
     font-size: 0.9em;
 }
